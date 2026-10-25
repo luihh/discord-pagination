@@ -1,5 +1,5 @@
 {
-  "name": "discord-pagination",
+  "name": "@luihh/discord-pagination",
   "version": "1.0.0",
   "description": "Static and dynamic button pagination for discord.js v14 and CommandKit, with Components V2 support, a jump-to-page modal and customizable controls.",
   "keywords": [
@@ -43,5 +43,8 @@
   },
   "peerDependencies": {
     "discord.js": "^14.27.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

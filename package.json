@@ -1,0 +1,47 @@
+{
+  "name": "discord-pagination",
+  "version": "1.0.0",
+  "description": "Static and dynamic button pagination for discord.js v14 and CommandKit, with Components V2 support, a jump-to-page modal and customizable controls.",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "pagination",
+    "commandkit",
+    "components-v2",
+    "buttons",
+    "modal"
+  ],
+  "homepage": "https://github.com/luihh/discord-pagination",
+  "bugs": {
+    "url": "https://github.com/luihh/discord-pagination/issues",
+    "email": "luihh@proton.me"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Luihh",
+    "email": "luihh@proton.me",
+    "url": "https://luihh.dev"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luihh/discord-pagination.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "discord.js": "^14.27.0",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.27.0"
+  }
+}

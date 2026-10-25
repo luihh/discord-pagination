@@ -14,8 +14,8 @@ Static and dynamic button pagination for discord.js v14 and CommandKit, with Com
 ## Install
 
 ```sh
-pnpm add discord-pagination
-# npm install discord-pagination
+pnpm add @luihh/discord-pagination
+# npm install @luihh/discord-pagination
 ```
 
 `discord.js` (`^14.27.0`) is a **peer dependency**, so the package and your bot share a single copy.
@@ -26,7 +26,7 @@ pnpm add discord-pagination
 
 ```ts
 import { EmbedBuilder } from 'discord.js';
-import { paginate } from 'discord-pagination';
+import { paginate } from '@luihh/discord-pagination';
 
 await paginate(interaction, [
   new EmbedBuilder().setTitle('Page one'),
@@ -222,7 +222,7 @@ Controls are appended as top-level rows after your page's own components (includ
 ## Exports
 
 ```ts
-import { paginate, defaultControls } from 'discord-pagination';
+import { paginate, defaultControls } from '@luihh/discord-pagination';
 import type {
   ControlAction,
   Controls,
@@ -235,7 +235,7 @@ import type {
   PaginationController,
   StaticPagination,
   V2Component,
-} from 'discord-pagination';
+} from '@luihh/discord-pagination';
 ```
 
 ## License
